@@ -1,0 +1,125 @@
+PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in F:\Open-Server\OSPanel\domains\corse-work4\components\Db.php:6
+Stack trace:
+#0 F:\Open-Server\OSPanel\domains\corse-work4\components\Db.php(6): PDO->__construct('mysql:host=p127...', 'root', '')
+#1 F:\Open-Server\OSPanel\domains\corse-work4\models\User.php(11): Db::connect()
+#2 F:\Open-Server\OSPanel\domains\corse-work4\controllers\AuthController.php(13): User->register(Array)
+#3 F:\Open-Server\OSPanel\domains\corse-work4\components\Router.php(21): AuthController->actionRegister()
+#4 F:\Open-Server\OSPanel\domains\corse-work4\index.php(8): Router->run()
+#5 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known.  in F:\Open-Server\OSPanel\domains\corse-work4\components\Db.php:6
+Stack trace:
+#0 F:\Open-Server\OSPanel\domains\corse-work4\components\Db.php(6): PDO->__construct('mysql:host=p127...', 'root', '')
+#1 F:\Open-Server\OSPanel\domains\corse-work4\models\User.php(11): Db::connect()
+#2 F:\Open-Server\OSPanel\domains\corse-work4\controllers\AuthController.php(13): User->register(Array)
+#3 F:\Open-Server\OSPanel\domains\corse-work4\components\Router.php(21): AuthController->actionRegister()
+#4 F:\Open-Server\OSPanel\domains\corse-work4\index.php(8): Router->run()
+#5 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', '')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/components/Db.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/components/Db.php(6): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 /Applications/MAMP/htdocs/controllers/SiteController.php(7): Db::connect()
+#2 /Applications/MAMP/htdocs/components/Router.php(21): SiteController->actionHome()
+#3 /Applications/MAMP/htdocs/index.php(8): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in W:\domains\localhost\components\Db.php:6
+Stack trace:
+#0 W:\domains\localhost\components\Db.php(6): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 W:\domains\localhost\controllers\SiteController.php(7): Db::connect()
+#2 W:\domains\localhost\components\Router.php(21): SiteController->actionHome()
+#3 W:\domains\localhost\index.php(5): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'localhost' in W:\domains\localhost\components\Db.php:6
+Stack trace:
+#0 W:\domains\localhost\components\Db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\localhost\controllers\SiteController.php(7): Db::connect()
+#2 W:\domains\localhost\components\Router.php(21): SiteController->actionHome()
+#3 W:\domains\localhost\index.php(5): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'localhost' in W:\domains\localhost\components\Db.php:6
+Stack trace:
+#0 W:\domains\localhost\components\Db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\localhost\controllers\SiteController.php(7): Db::connect()
+#2 W:\domains\localhost\components\Router.php(21): SiteController->actionHome()
+#3 W:\domains\localhost\index.php(5): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'localhost' in W:\domains\localhost\components\Db.php:6
+Stack trace:
+#0 W:\domains\localhost\components\Db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\localhost\controllers\SiteController.php(7): Db::connect()
+#2 W:\domains\localhost\components\Router.php(21): SiteController->actionHome()
+#3 W:\domains\localhost\index.php(5): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'localhost' in W:\domains\localhost\components\Db.php:6
+Stack trace:
+#0 W:\domains\localhost\components\Db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\localhost\controllers\SiteController.php(7): Db::connect()
+#2 W:\domains\localhost\components\Router.php(21): SiteController->actionHome()
+#3 W:\domains\localhost\index.php(5): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in W:\domains\localhost\components\Db.php:6
+Stack trace:
+#0 W:\domains\localhost\components\Db.php(6): PDO->__construct('mysql:host=loca...', 'root', ' ')
+#1 W:\domains\localhost\controllers\SiteController.php(7): Db::connect()
+#2 W:\domains\localhost\components\Router.php(21): SiteController->actionHome()
+#3 W:\domains\localhost\index.php(5): Router->run()
+#4 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'localhost' in W:\domains\localhost\components\Db.php:6
+Stack trace:
+#0 W:\domains\localhost\components\Db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\localhost\controllers\SiteController.php(7): Db::connect()
+#2 W:\domains\localhost\components\Router.php(21): SiteController->actionHome()
+#3 W:\domains\localhost\index.php(5): Router->run()
+#4 {main}
