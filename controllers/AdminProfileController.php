@@ -20,6 +20,7 @@ class AdminProfileController extends BaseController
                 }
             }
         }
+
         return $this->renderAdmin('profile/index', ['setting'=> $setting]);
     }//sdfsdf
 }
